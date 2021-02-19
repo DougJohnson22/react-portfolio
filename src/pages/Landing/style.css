@@ -14,10 +14,10 @@
 .jumboBlock{
     background-image:radial-gradient(
         rgba(255,255,255,0.1),
+        rgba(255,255,255,0.25),
         rgba(255,255,255,0.3),
-        rgba(255,255,255,0.5),
-        rgba(255,255,255,.03),
-        rgba(255,255,255,.01)
+        rgba(255,255,255,0.25),
+        rgba(255,255,255,0.1)
     ) ;
     height: 100%;
     width: 100%;
