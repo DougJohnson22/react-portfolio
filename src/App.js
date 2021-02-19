@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar"
-import Index from "./pages/index"
+import Index from "./pages//Landing/index"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
