@@ -1,18 +1,44 @@
 import React from 'react'
+import { Link, useLocation } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 
+
 export default function NavBar() {
+    const location = useLocation();
+
+
     return (
         <Navbar bg="light" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Brand href="#home">Doug Johnson</Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/home">Home</Nav.Link>
-                    <Nav.Link href="/history">History</Nav.Link>
-                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+
+                    <Nav.Link>
+                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                            Home
+                        </Link>
+                    </Nav.Link>
+
+                    <Nav.Link>
+                        <Link to="/history" className={location.pathname === "/history" ? "nav-link active" : "nav-link"}>
+                        History
+                        </Link>
+                    </Nav.Link>
+
+                    <Nav.Link>
+                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                            Portfolio
+                        </Link> 
+                    </Nav.Link>
+
+                    <Nav.Link>
+                        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                            Contact
+                        </Link>
+                    </Nav.Link>
+
                 </Nav>
             </Navbar.Collapse>
 

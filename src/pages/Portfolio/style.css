@@ -1,0 +1,25 @@
+.Banner{
+    width: 95vw;
+    height: 60vh;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.jumboBlock{
+    height: 100%;
+    width: 100%;
+    padding: 12%;
+    backdrop-filter: blur(1px);
+}
+
+.MyApps span{
+    background-color: rgba(255,255,255,.3);
+    padding: 3px;
+    border-radius: 50px;
+}

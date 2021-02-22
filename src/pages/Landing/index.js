@@ -1,9 +1,8 @@
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Image from 'react-bootstrap/Image'
-import "./style.css"
 import React from 'react'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import "./style.css"
 
-export default function Index() {
+export default function Landing() {
     return (
         <div>
             <Jumbotron className="Banner" fluid style={{backgroundImage: "url('https://i.postimg.cc/tJn3VFky/Portfolio-Banner.png')"}}>
