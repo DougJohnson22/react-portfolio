@@ -15,11 +15,7 @@
     height: 100%;
     width: 100%;
     padding: 12%;
-    backdrop-filter: blur(1px);
-}
-
-.MyApps span{
-    background-color: rgba(255,255,255,.3);
-    padding: 3px;
-    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

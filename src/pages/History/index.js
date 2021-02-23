@@ -11,9 +11,6 @@ export default function History() {
 
                     <div className="jumboBlock">
                         <h1>History</h1>
-                        <p>
-                            My history shows how I have always been a Full Stack developer
-                </p>
                     </div>
 
                 </Jumbotron>

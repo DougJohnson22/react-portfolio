@@ -11,7 +11,7 @@ export default function NavBar() {
     return (
         <Navbar bg="light" expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Brand href="#home">Doug Johnson</Navbar.Brand>
+            <Navbar.Brand>Doug Johnson</Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
 
@@ -21,11 +21,11 @@ export default function NavBar() {
                         </Link>
                     </Nav.Link>
 
-                    <Nav.Link>
+                    {/* <Nav.Link>
                         <Link to="/history" className={location.pathname === "/history" ? "nav-link active" : "nav-link"}>
                             History
                         </Link>
-                    </Nav.Link>
+                    </Nav.Link> */}
 
                     <Nav.Link>
                         <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
