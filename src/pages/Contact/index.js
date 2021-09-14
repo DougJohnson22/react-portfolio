@@ -22,7 +22,8 @@ export default function Contact() {
                 </div>
 
                 <div className="row wrapper">
-                    <h5>Email: trunks22a@gmail.com</h5>
+                    <h5>Email: doug@gofordoug.com
+                    </h5>
                     <Button variant="outline-primary" href="https://www.linkedin.com/in/douglas-johnson-942ba2200/">Linked In</Button>
                     <Button variant="outline-primary" href="https://github.com/DougJohnson22">GitHub Repo</Button>
                     <Button variant="outline-primary" href="#">Resume</Button>
